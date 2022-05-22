@@ -1,0 +1,40 @@
+.bgvideo {
+    top: 0px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -9999;
+  }
+
+
+input {
+    position: relative;
+    top: 170px;
+    background-color: #00000052;
+    width: 400px;
+    height: 40px;
+    border: 2px solid #00000059;
+    color: rgba(255, 0, 242, 0.824);
+    font-size: 25px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    border-radius: 30px; 
+}
+
+::placeholder{color:var(--c, #ff04f755);
+opacity: 0.5;}
+.img{
+    position: relative;
+    top: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: alpha(Opacity=50);
+    opacity: 0.7; 
+    box-shadow: 0 0 80px 10px #970bf4;
+}
+form {text-align:center;}
+input:focus {
+border-color: #311c24;
+}
+

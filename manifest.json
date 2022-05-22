@@ -1,0 +1,20 @@
+{
+    "name": "вкладочка)",
+    "description": "новая вкладка",
+    "icons": { 
+      "16": "rashireniepng11.png",
+      "48": "rashireniepng11.png",
+     "128": "rashireniepng11.png" },
+    "version": "0.1",
+    "incognito": "split",
+    "action": {
+      "default_popup": "option.html"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "new-tab.html"
+  },
+    "manifest_version": 3
+}
+
+
+  
